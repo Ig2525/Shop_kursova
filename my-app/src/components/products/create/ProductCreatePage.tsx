@@ -79,7 +79,7 @@ const ProductCreatePage = () => {
               id="name"
               onChange={onChangeHandler}
               className="bg-gray-100 border border-gray-200 rounded py-1 px-3 block focus:ring-blue-500 focus:border-blue-500 text-gray-700 w-full"
-              placeholder="Вкажіть назву категорії"
+              placeholder="Вкажіть назву продукту"
             />
           </div>
 
@@ -96,7 +96,7 @@ const ProductCreatePage = () => {
               id="price"
               onChange={onChangeHandler}
               className="bg-gray-100 border border-gray-200 rounded py-1 px-3 block focus:ring-blue-500 focus:border-blue-500 text-gray-700 w-full"
-              placeholder="Вкажіть назву категорії"
+              placeholder="Вкажіть ціну (число)"
             />
           </div>
 
